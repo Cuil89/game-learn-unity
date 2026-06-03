@@ -1,0 +1,57 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+
+# Visual Studio / Rider generated files
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.tmp
+
+# Build outputs
+*.apk
+*.aab
+*.exe
+*.zip
+*.rar
+[Dd]ebug/
+[Rr]elease/
+
+# Unity package raw/demo files besar
+*.unitypackage
+Packages/**/Samples~/
+Packages/**/Setup~/
+
+# File EXR biasanya besar, GitHub sering nolak
+*.exr
+*.exr.meta
+
+# Skybox HDR besar yang ditolak GitHub
+Assets/3D Skybox/Swiss Freebies/Textures/hdr/
+
+# Texture besar yang bikin warning GitHub
+Assets/ALP_Assets/Poplar Tree FREE/Models/Textures/BranchesPoplar001.tga
+Assets/ALP_Assets/Poplar Tree FREE/Models/Textures/BranchesPoplar001.tga.meta
+
+# Dokumentasi asset, aman tidak dipush
+Assets/BxB Studio/MVC Documentation/
+
+# Folder mentahan asset di luar Assets
+KayKit_City_Builder_Bits_1.0_FREE/
+MVC Prefs/
